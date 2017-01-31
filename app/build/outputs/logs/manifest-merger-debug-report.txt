@@ -1,0 +1,138 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/kennethford/Development/vr_view_app_101/app/src/main/AndroidManifest.xml:17:1-38:12
+	package
+		ADDED from /Users/kennethford/Development/vr_view_app_101/app/src/main/AndroidManifest.xml:18:5-42
+		INJECTED from /Users/kennethford/Development/vr_view_app_101/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kennethford/Development/vr_view_app_101/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/kennethford/Development/vr_view_app_101/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kennethford/Development/vr_view_app_101/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/kennethford/Development/vr_view_app_101/app/src/main/AndroidManifest.xml:17:11-69
+	android:versionCode
+		INJECTED from /Users/kennethford/Development/vr_view_app_101/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kennethford/Development/vr_view_app_101/app/src/main/AndroidManifest.xml
+application
+ADDED from /Users/kennethford/Development/vr_view_app_101/app/src/main/AndroidManifest.xml:20:5-36:19
+MERGED from [com.android.support:appcompat-v7:23.3.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:23.3.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.3.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.3.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.3.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.3.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.3.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.3.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:23.3.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.3.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.3.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.3.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.3.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.3.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.3.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /Users/kennethford/Development/vr_view_app_101/app/src/main/AndroidManifest.xml:23:9-41
+	android:supportsRtl
+		ADDED from /Users/kennethford/Development/vr_view_app_101/app/src/main/AndroidManifest.xml:24:9-35
+	android:allowBackup
+		ADDED from /Users/kennethford/Development/vr_view_app_101/app/src/main/AndroidManifest.xml:21:9-35
+	android:icon
+		ADDED from /Users/kennethford/Development/vr_view_app_101/app/src/main/AndroidManifest.xml:22:9-43
+	android:theme
+		ADDED from /Users/kennethford/Development/vr_view_app_101/app/src/main/AndroidManifest.xml:25:9-40
+activity#com.google.devrel.vrviewapp.MainActivity
+ADDED from /Users/kennethford/Development/vr_view_app_101/app/src/main/AndroidManifest.xml:26:9-35:20
+	android:label
+		ADDED from /Users/kennethford/Development/vr_view_app_101/app/src/main/AndroidManifest.xml:28:13-45
+	android:theme
+		ADDED from /Users/kennethford/Development/vr_view_app_101/app/src/main/AndroidManifest.xml:29:13-56
+	android:name
+		ADDED from /Users/kennethford/Development/vr_view_app_101/app/src/main/AndroidManifest.xml:27:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/kennethford/Development/vr_view_app_101/app/src/main/AndroidManifest.xml:30:13-34:29
+action#android.intent.action.MAIN
+ADDED from /Users/kennethford/Development/vr_view_app_101/app/src/main/AndroidManifest.xml:31:17-69
+	android:name
+		ADDED from /Users/kennethford/Development/vr_view_app_101/app/src/main/AndroidManifest.xml:31:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/kennethford/Development/vr_view_app_101/app/src/main/AndroidManifest.xml:33:17-77
+	android:name
+		ADDED from /Users/kennethford/Development/vr_view_app_101/app/src/main/AndroidManifest.xml:33:27-74
+uses-sdk
+INJECTED from /Users/kennethford/Development/vr_view_app_101/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.3.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-vector-drawable:23.3.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.3.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.3.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.3.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.3.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.3.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.3.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-vector-drawable:23.3.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.3.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.3.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.3.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.3.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.3.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.3.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.3.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.vr:sdk-audio:1.10.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.google.vr/sdk-audio/1.10.0/AndroidManifest.xml:3:5-73
+MERGED from [com.google.vr:sdk-base:1.10.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.google.vr/sdk-base/1.10.0/AndroidManifest.xml:5:5-73
+MERGED from [com.google.vr:sdk-common:1.10.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.google.vr/sdk-common/1.10.0/AndroidManifest.xml:3:5-73
+MERGED from [com.google.vr:sdk-base:1.10.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.google.vr/sdk-base/1.10.0/AndroidManifest.xml:5:5-73
+MERGED from [com.google.vr:sdk-common:1.10.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.google.vr/sdk-common/1.10.0/AndroidManifest.xml:3:5-73
+MERGED from [com.google.vr:sdk-common:1.10.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.google.vr/sdk-common/1.10.0/AndroidManifest.xml:3:5-73
+MERGED from [com.google.vr:sdk-commonwidget:1.10.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.google.vr/sdk-commonwidget/1.10.0/AndroidManifest.xml:3:5-73
+MERGED from [com.google.vr:sdk-common:1.10.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.google.vr/sdk-common/1.10.0/AndroidManifest.xml:3:5-73
+MERGED from [com.google.vr:sdk-panowidget:1.10.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.google.vr/sdk-panowidget/1.10.0/AndroidManifest.xml:3:5-73
+MERGED from [com.google.vr:sdk-commonwidget:1.10.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.google.vr/sdk-commonwidget/1.10.0/AndroidManifest.xml:3:5-73
+MERGED from [com.google.vr:sdk-common:1.10.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.google.vr/sdk-common/1.10.0/AndroidManifest.xml:3:5-73
+MERGED from [com.google.vr:sdk-videowidget:1.10.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.google.vr/sdk-videowidget/1.10.0/AndroidManifest.xml:3:5-73
+MERGED from [com.google.android.exoplayer:exoplayer:r1.5.10] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.google.android.exoplayer/exoplayer/r1.5.10/AndroidManifest.xml:24:5-26:41
+MERGED from [com.google.vr:sdk-commonwidget:1.10.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.google.vr/sdk-commonwidget/1.10.0/AndroidManifest.xml:3:5-73
+MERGED from [com.google.vr:sdk-common:1.10.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.google.vr/sdk-common/1.10.0/AndroidManifest.xml:3:5-73
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.3.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/kennethford/Development/vr_view_app_101/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kennethford/Development/vr_view_app_101/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/kennethford/Development/vr_view_app_101/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kennethford/Development/vr_view_app_101/app/src/main/AndroidManifest.xml
+uses-feature#0x00020000
+ADDED from [com.google.vr:sdk-base:1.10.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.google.vr/sdk-base/1.10.0/AndroidManifest.xml:6:5-77
+MERGED from [com.google.vr:sdk-base:1.10.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.google.vr/sdk-base/1.10.0/AndroidManifest.xml:6:5-77
+	android:glEsVersion
+		ADDED from [com.google.vr:sdk-base:1.10.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.google.vr/sdk-base/1.10.0/AndroidManifest.xml:6:19-51
+	android:required
+		ADDED from [com.google.vr:sdk-base:1.10.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.google.vr/sdk-base/1.10.0/AndroidManifest.xml:6:52-75
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [com.google.vr:sdk-base:1.10.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.google.vr/sdk-base/1.10.0/AndroidManifest.xml:9:5-79
+MERGED from [com.google.vr:sdk-base:1.10.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.google.vr/sdk-base/1.10.0/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from [com.google.vr:sdk-base:1.10.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.google.vr/sdk-base/1.10.0/AndroidManifest.xml:9:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [com.google.vr:sdk-base:1.10.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.google.vr/sdk-base/1.10.0/AndroidManifest.xml:10:5-80
+MERGED from [com.google.vr:sdk-base:1.10.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.google.vr/sdk-base/1.10.0/AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from [com.google.vr:sdk-base:1.10.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.google.vr/sdk-base/1.10.0/AndroidManifest.xml:10:22-78
+uses-feature#android.software.vr.mode
+ADDED from [com.google.vr:sdk-base:1.10.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.google.vr/sdk-base/1.10.0/AndroidManifest.xml:13:5-85
+MERGED from [com.google.vr:sdk-base:1.10.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.google.vr/sdk-base/1.10.0/AndroidManifest.xml:13:5-85
+	android:required
+		ADDED from [com.google.vr:sdk-base:1.10.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.google.vr/sdk-base/1.10.0/AndroidManifest.xml:13:59-83
+	android:name
+		ADDED from [com.google.vr:sdk-base:1.10.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.google.vr/sdk-base/1.10.0/AndroidManifest.xml:13:19-58
+uses-feature#android.hardware.vr.high_performance
+ADDED from [com.google.vr:sdk-base:1.10.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.google.vr/sdk-base/1.10.0/AndroidManifest.xml:15:5-97
+MERGED from [com.google.vr:sdk-base:1.10.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.google.vr/sdk-base/1.10.0/AndroidManifest.xml:15:5-97
+	android:required
+		ADDED from [com.google.vr:sdk-base:1.10.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.google.vr/sdk-base/1.10.0/AndroidManifest.xml:15:71-95
+	android:name
+		ADDED from [com.google.vr:sdk-base:1.10.0] /Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.google.vr/sdk-base/1.10.0/AndroidManifest.xml:15:19-70
+android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /Users/kennethford/Development/vr_view_app_101/app/src/main/AndroidManifest.xml:17:1-38:12 reason: com.google.vr.sdk.base requested WRITE_EXTERNAL_STORAGE

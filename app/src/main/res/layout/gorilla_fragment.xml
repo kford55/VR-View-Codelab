@@ -24,22 +24,35 @@
         android:layout_width="match_parent"
         android:orientation="vertical"
         android:layout_height="wrap_content">
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/gorilla_info"
-        android:layout_marginTop="@dimen/activity_vertical_margin"
-        android:layout_marginStart="@dimen/activity_horizontal_margin"
-        android:layout_marginBottom="@dimen/activity_vertical_margin"
-        android:id="@+id/textView" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gorilla_info"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:id="@+id/textView" />
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/gorillaView"
-        android:layout_marginStart="@dimen/activity_horizontal_margin"
-        android:layout_marginTop="@dimen/activity_vertical_margin"
-        android:src="@drawable/gorilla" />
+        <com.google.vr.sdk.widgets.video.VrVideoView
+            android:id="@+id/video_view"
+            android:layout_width="match_parent"
+            android:scrollbars="none"
+            android:layout_height="250dip"/>
+
+        <!-- Seeking UI & progress indicator.-->
+        <SeekBar
+            android:id="@+id/seek_bar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_height="32dp"
+            android:layout_width="fill_parent"/>
+        <TextView
+            android:id="@+id/status_text"
+            android:text="Loading Video..."
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:textSize="12sp"
+            android:paddingStart="32dp"
+            android:paddingEnd="32dp"/>
 
     </LinearLayout>
 </ScrollView>

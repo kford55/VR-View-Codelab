@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/kennethford/Development/vr_view_app_101/app/build/intermediates/res/merged/debug/layout-land/settings_button.xml",
+        "source": "/Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.google.vr/sdk-base/1.10.0/res/layout-land/settings_button.xml"
+    },
+    {
+        "merged": "/Users/kennethford/Development/vr_view_app_101/app/build/intermediates/res/merged/debug/layout-land/ui_layer_with_portrait_support.xml",
+        "source": "/Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.google.vr/sdk-base/1.10.0/res/layout-land/ui_layer_with_portrait_support.xml"
+    },
+    {
+        "merged": "/Users/kennethford/Development/vr_view_app_101/app/build/intermediates/res/merged/debug/layout-land/back_button.xml",
+        "source": "/Users/kennethford/Development/vr_view_app_101/app/build/intermediates/exploded-aar/com.google.vr/sdk-base/1.10.0/res/layout-land/back_button.xml"
+    }
+]
