@@ -71,6 +71,21 @@ public class GorillaFragment extends Fragment {
         statusText = (TextView) v.findViewById(R.id.status_text);
         videoWidgetView = (VrVideoView) v.findViewById(R.id.video_view);
 
+        // initialize based on the saved state
+        if (savedInstanceState != null) {
+            long progressTime = savedInstanceState.getLong(STATE_PROGRESS_TIME);
+            videoWidgetView.seekTo(progressTime);
+            seekBar.setMax((int)savedInstanceState.getLong(STATE_VIDEO_DURATION));
+            seekBar.setProgress((int) progressTime);
+
+            isPaused = savedInstanceState.getBoolean(STATE_IS_PAUSED);
+            if (isPaused) {
+                videoWidgetView.pauseVideo();
+            }
+        } else {
+            seekBar.setEnabled(false);
+        }
+
         seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
@@ -166,5 +181,53 @@ public class GorillaFragment extends Fragment {
         savedInstanceState.putLong(STATE_VIDEO_DURATION, videoWidgetView.getDuration());
         savedInstanceState.putBoolean(STATE_IS_PAUSED, isPaused);
         super.onSaveInstanceState(savedInstanceState);
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        // Prevent the view from rendering continuously when in the background.
+        videoWidgetView.pauseRendering();
+        // If the video was playing when onPause() is called, the default behavior will be to pause
+        // the video and keep it paused when onResume() is called.
+        isPaused = true;
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        // Resume the 3D rendering.
+        videoWidgetView.resumeRendering();
+        // Update the text to account for the paused video in onPause().
+        updateStatusText();
+    }
+
+    @Override
+    public void onDestroy() {
+        // Destroy the widget and free memory.
+        videoWidgetView.shutdown();
+        super.onDestroy();
+    }
+
+    @Override
+    public void setUserVisibleHint(boolean isVisibleToUser) {
+        super.setUserVisibleHint(isVisibleToUser);
+
+        if (isVisibleToUser) {
+            try {
+                if (videoWidgetView.getDuration() <= 0) {
+                    videoWidgetView.loadVideoFromAsset("congo_2048.mp4",
+                            new VrVideoView.Options());
+                }
+            } catch (Exception e) {
+                Toast.makeText(getActivity(), "Error opening video: " + e.getMessage(), Toast.LENGTH_LONG)
+                        .show();
+            }
+        } else {
+            isPaused = true;
+            if (videoWidgetView != null) {
+                videoWidgetView.pauseVideo();
+            }
+        }
     }
 }
